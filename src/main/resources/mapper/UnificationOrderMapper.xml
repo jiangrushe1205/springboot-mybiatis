@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+x<mapper namespace="com.freefly.demo.dao.mapper.UnificationOrderMapper" >
+  <resultMap id="BaseResultMap" type="com.freefly.demo.model.UnificationOrder" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="unification_order_Id" property="unificationOrderId" jdbcType="INTEGER" />
+    <result column="business_order_code" property="businessOrderCode" jdbcType="VARCHAR" />
+    <result column="business_type" property="businessType" jdbcType="SMALLINT" />
+    <result column="pay_type" property="payType" jdbcType="VARCHAR" />
+    <result column="pay_Status" property="payStatus" jdbcType="SMALLINT" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="pay_time" property="payTime" jdbcType="TIMESTAMP" />
+    <result column="body" property="body" jdbcType="VARCHAR" />
+    <result column="total_fee" property="totalFee" jdbcType="VARCHAR" />
+    <result column="detail" property="detail" jdbcType="VARCHAR" />
+    <result column="product_id" property="productId" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
